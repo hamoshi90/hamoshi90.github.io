@@ -1,5 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="15" fill="#132a32"/>
-  <path d="M12 46V18L22 36L32 18L42 36L52 18V46" stroke="#98f4c7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <circle cx="51" cy="53" r="3" fill="#98f4c7"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="brand-title">
+<title id="brand-title">Ali Mohammad — Developer</title>
+<desc id="brand-desc">Subtle rounded-square AM monogram, geometric A with a centered borderless terminal prompt</desc>
+<defs>
+  <linearGradient id="Pbg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#0c383a"/><stop offset="0.48" stop-color="#08222b"/><stop offset="1" stop-color="#081820"/>
+  </linearGradient>
+  <linearGradient id="Pa" x1="0" y1="1" x2="1" y2="0">
+    <stop stop-color="#10d6bc"/><stop offset="0.42" stop-color="#34f0cf"/><stop offset="1" stop-color="#d0ffe4"/>
+  </linearGradient>
+  <linearGradient id="Pm" x1="0" y1="1" x2="1" y2="0">
+    <stop stop-color="#0bd5c0"/><stop offset=".7" stop-color="#67f8d7"/><stop offset="1" stop-color="#b5ffe0"/>
+  </linearGradient>
+  <linearGradient id="Pframe" x1="0" y1="1" x2="1" y2="0">
+    <stop stop-color="#13b9aa" stop-opacity=".64"/><stop offset=".53" stop-color="#83efd1" stop-opacity=".47"/><stop offset="1" stop-color="#65cee4" stop-opacity=".47"/>
+  </linearGradient>
+  <linearGradient id="Phighlight" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9fff2" stop-opacity=".46"/><stop offset="1" stop-color="#e9fff2" stop-opacity="0"/></linearGradient>
+ </defs>
+<rect x="3" y="3" width="122" height="122" rx="28" fill="url(#Pbg)" stroke="url(#Pframe)" stroke-width="1.6"/>
+  <!-- Ribbon A: crisp left leg, bright peak, robust right leg. -->
+  <path d="M16 98 L52 27 Q58 17 65 27 L99 98 H80 L58 51 L34 98 Z" fill="url(#Pa)"/>
+  <path d="M51 28 Q58 17 65 27 L72 40 L62 55 L58 51 L48 68 L37 64 Z" fill="url(#Phighlight)" opacity=".63"/>
+  <path d="M45 66 L56 49 L74 85 H60 Z" fill="#0b817f" opacity=".48"/>
+  <!-- M's second rise, merged behind A, distinct at reduced scale. -->
+  <path d="M74 65 L98 44 Q106 37 111 46 L111 100 L98 100 L98 61 L84 77 Z" fill="url(#Pm)"/>
+  <path d="M98 46 L102 43 Q109 41 111 47 L111 60 L100 61 Z" fill="#e6fff0" opacity=".24"/>
+  <!-- Borderless terminal prompt embedded in the center of A, not in a pill or frame. -->
+  <path d="M42 72 L51 80 L42 88" fill="none" stroke="#a8ffe3" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M57 86 H83" fill="none" stroke="#80ffe1" stroke-width="5" stroke-linecap="round"/>
 </svg>

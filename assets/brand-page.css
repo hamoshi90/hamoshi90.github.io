@@ -1,0 +1,18 @@
+/* Brand identity page uses the site's established Premium V2 system. */
+.brand-page .home-hero{padding:57px 0 38px}
+.brand-page .home-hero h1{margin:16px 0 10px;font-size:clamp(31px,4.4vw,50px)}
+.brand-page .home-hero-lead{max-width:850px}
+.brand-showcase{padding:32px 0 42px;background:#0a121a}
+.brand-showcase-card{background:#0d1c24;border:1px solid rgba(141,225,192,.25);border-radius:20px;padding:12px;box-shadow:0 24px 60px rgba(0,0,0,.2)}
+.brand-banner{display:block;width:100%;height:auto;aspect-ratio:1672/941;object-fit:contain;border-radius:11px;background:#06151c}
+.brand-figcaption{color:#91afa8;font-size:11px;margin:13px 9px 6px;line-height:1.85;text-align:center}
+.brand-download-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:22px}
+.brand-download-option{display:flex;flex-direction:column;gap:9px;align-items:flex-start;background:#102833;border:1px solid rgba(135,225,184,.22);border-radius:14px;padding:18px 19px;text-decoration:none;min-height:117px;transition:background .2s,border-color .2s}
+.brand-download-option:hover{background:#183d3a;border-color:#74e6b2}
+.brand-download-option strong{font-size:14px;font-weight:800;color:#e1faed}
+.brand-download-option span{font-size:11px;color:#9bbeb1;line-height:1.8}
+.brand-notes{display:flex;align-items:flex-start;flex-wrap:wrap;gap:8px 22px;margin:22px 0 3px;color:#9bb9b6;font-size:12px;line-height:1.85}
+.brand-notes a{color:#b3f4d0;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:800px){.brand-page .home-hero{padding:43px 0 30px}}
+@media(max-width:620px){.brand-page .home-hero{padding:36px 0 27px}.brand-showcase{padding:20px 0 29px}.brand-showcase-card{padding:6px;border-radius:14px}.brand-banner{border-radius:9px}.brand-download-options{grid-template-columns:1fr;gap:9px;margin-top:15px}.brand-download-option{min-height:0;padding:15px 17px}.brand-figcaption{margin:8px 6px 5px}}
+@media(prefers-reduced-motion:reduce){.brand-download-option{transition:none}}

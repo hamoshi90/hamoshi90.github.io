@@ -1,11 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
-  <title id="title">Ali Mohammad developer studio</title>
-  <defs>
-    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1f4945"/><stop offset=".56" stop-color="#132a32"/><stop offset="1" stop-color="#0e1d29"/></linearGradient>
-    <linearGradient id="mark" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#65d9ac"/><stop offset="1" stop-color="#c2fbd9"/></linearGradient>
-  </defs>
-  <rect x="1" y="1" width="94" height="94" rx="25" fill="url(#frame)" stroke="#78dcae" stroke-opacity=".42" stroke-width="2"/>
-  <path d="M19 67V31L34 54L48 31L62 54L77 31V67" stroke="url(#mark)" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
-  <path d="M20 78H58" stroke="#82f0ba" stroke-width="3" stroke-linecap="round" stroke-opacity=".42"/>
-  <circle cx="76" cy="78" r="4" fill="#bafbd5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="brand-title brand-desc">
+<title id="brand-title">Ali Mohammad — Developer</title>
+<desc id="brand-desc">Subtle rounded-square AM monogram, geometric A with a centered borderless terminal prompt</desc>
+<defs>
+  <linearGradient id="Pbg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#0c383a"/><stop offset="0.48" stop-color="#08222b"/><stop offset="1" stop-color="#081820"/>
+  </linearGradient>
+  <linearGradient id="Pa" x1="0" y1="1" x2="1" y2="0">
+    <stop stop-color="#10d6bc"/><stop offset="0.42" stop-color="#34f0cf"/><stop offset="1" stop-color="#d0ffe4"/>
+  </linearGradient>
+  <linearGradient id="Pm" x1="0" y1="1" x2="1" y2="0">
+    <stop stop-color="#0bd5c0"/><stop offset=".7" stop-color="#67f8d7"/><stop offset="1" stop-color="#b5ffe0"/>
+  </linearGradient>
+  <linearGradient id="Pframe" x1="0" y1="1" x2="1" y2="0">
+    <stop stop-color="#13b9aa" stop-opacity=".64"/><stop offset=".53" stop-color="#83efd1" stop-opacity=".47"/><stop offset="1" stop-color="#65cee4" stop-opacity=".47"/>
+  </linearGradient>
+  <linearGradient id="Phighlight" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9fff2" stop-opacity=".46"/><stop offset="1" stop-color="#e9fff2" stop-opacity="0"/></linearGradient>
+ </defs>
+<rect x="3" y="3" width="122" height="122" rx="28" fill="url(#Pbg)" stroke="url(#Pframe)" stroke-width="1.6"/>
+  <!-- Ribbon A: crisp left leg, bright peak, robust right leg. -->
+  <path d="M16 98 L52 27 Q58 17 65 27 L99 98 H80 L58 51 L34 98 Z" fill="url(#Pa)"/>
+  <path d="M51 28 Q58 17 65 27 L72 40 L62 55 L58 51 L48 68 L37 64 Z" fill="url(#Phighlight)" opacity=".63"/>
+  <path d="M45 66 L56 49 L74 85 H60 Z" fill="#0b817f" opacity=".48"/>
+  <!-- M's second rise, merged behind A, distinct at reduced scale. -->
+  <path d="M74 65 L98 44 Q106 37 111 46 L111 100 L98 100 L98 61 L84 77 Z" fill="url(#Pm)"/>
+  <path d="M98 46 L102 43 Q109 41 111 47 L111 60 L100 61 Z" fill="#e6fff0" opacity=".24"/>
+  <!-- Borderless terminal prompt embedded in the center of A, not in a pill or frame. -->
+  <path d="M42 72 L51 80 L42 88" fill="none" stroke="#a8ffe3" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M57 86 H83" fill="none" stroke="#80ffe1" stroke-width="5" stroke-linecap="round"/>
 </svg>
