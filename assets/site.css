@@ -290,3 +290,9 @@ body:not([data-release]) .nav-container{flex-wrap:wrap}
   .document-hero{padding:64px 0 58px}.document-hero h1{font-size:33px}.document-hero p{font-size:12px}.document-content{padding:27px 24px}.document-section h2{font-size:17px}.document-section p{font-size:12px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* Shared Premium V2 detail-page icon treatment for pre-submission candidates. */
+.tool-heading{display:flex;align-items:center;gap:24px}
+.tool-detail-mark{width:84px;height:84px;min-width:84px;border-radius:23px;display:grid;place-items:center;color:#77dfa9;background:linear-gradient(145deg,#1a453e,#0e3034);border:1px solid rgba(126,234,174,.35);box-shadow:0 16px 34px rgba(0,0,0,.18)}
+.tool-detail-mark svg{max-width:65px;max-height:65px}
+@media(max-width:560px){.tool-heading{align-items:flex-start;gap:15px}.tool-detail-mark{width:54px;height:54px;min-width:54px;border-radius:16px}.tool-detail-mark svg{width:36px;height:36px}.tool-heading h1{font-size:27px}}
