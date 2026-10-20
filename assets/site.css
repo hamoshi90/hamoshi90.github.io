@@ -296,3 +296,29 @@ body:not([data-release]) .nav-container{flex-wrap:wrap}
 .tool-detail-mark{width:84px;height:84px;min-width:84px;border-radius:23px;display:grid;place-items:center;color:#77dfa9;background:linear-gradient(145deg,#1a453e,#0e3034);border:1px solid rgba(126,234,174,.35);box-shadow:0 16px 34px rgba(0,0,0,.18)}
 .tool-detail-mark svg{max-width:65px;max-height:65px}
 @media(max-width:560px){.tool-heading{align-items:flex-start;gap:15px}.tool-detail-mark{width:54px;height:54px;min-width:54px;border-radius:16px}.tool-detail-mark svg{width:36px;height:36px}.tool-heading h1{font-size:27px}}
+
+/* Public independent source distribution. All downloads are static, no payment or tracking. */
+.download-feature{border:1px solid rgba(135,231,170,.33);border-radius:17px;background:linear-gradient(160deg,#1c4237 0%,#102a31 63%,#10222d 100%);padding:26px 29px;margin-bottom:26px;color:#e2f7ea;box-shadow:0 17px 38px rgba(0,0,0,.16)}
+.download-feature h2{font-size:clamp(19px,2vw,25px);line-height:1.5;color:#f4fff8;margin:16px 0 16px;font-weight:840}
+.download-topline{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;color:#a3d2bc;font:720 11px/1.7 system-ui,sans-serif}
+.download-state{color:#a2f7c4;font-weight:800}
+.download-action-row{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:18px 0}
+.download-primary,.download-secondary,.download-mini{display:inline-flex;align-items:center;justify-content:center;gap:9px;text-decoration:none;min-height:44px;padding:10px 17px;font-weight:830;font-size:12px;border-radius:9px;transition:transform .18s ease,background .18s ease}
+.download-primary,.download-mini{background:#a0f2bd;color:#0a3022;border:1px solid #b6f5cd}
+.download-primary:hover,.download-mini:hover{background:#cefde0;color:#0a3022;transform:translateY(-1px)}
+.download-secondary{border:1px solid rgba(163,236,192,.4);color:#bef2ce;background:rgba(21,49,43,.48)}
+.download-secondary:hover{background:rgba(126,210,162,.18)}
+.download-sha{font-size:11px;line-height:1.7;margin:12px 0;color:#cce7d8;display:flex;flex-wrap:wrap;gap:6px 12px}
+.download-sha code{overflow-wrap:anywhere;word-break:break-all;color:#d3f9e5;font:700 10px/1.7 monospace}
+.download-disclaimer{font-size:11px!important;line-height:1.9!important;color:#bad4c8!important;margin:12px 0!important}
+.download-guide-link{color:#b9f7cf;font-size:11px;font-weight:800;text-decoration:underline;text-underline-offset:4px}
+.skill-downloads{margin:12px 0;color:#e1f9ec}.skill-downloads summary{cursor:pointer;font-size:12px;font-weight:820;padding:9px 0}.skill-downloads ul{margin:4px 0 9px;padding-inline-start:22px;list-style:disc}.skill-downloads li{padding:3px 0;font-size:12px}.skill-downloads a{color:#b8f6d1;text-decoration:underline;text-underline-offset:3px}
+.download-mini{font-size:11px;min-height:38px;padding:8px 12px;width:100%;margin-top:4px}
+.download-list{padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;list-style:none}
+.download-item{border:1px solid rgba(139,215,174,.23);border-radius:16px;background:#11242e;padding:26px;box-shadow:0 16px 35px rgba(0,0,0,.1)}
+.download-item h2{font-size:20px;color:#eaffef;line-height:1.45;margin:12px 0}.download-item p{font-size:12px;line-height:1.95;color:#c0d7ce}
+.download-item .download-sha code{color:#a0ecc2}.download-item .download-primary{margin-top:8px}
+.download-item .skill-downloads{border-top:1px solid rgba(134,213,176,.16);margin-top:18px;padding-top:8px}
+.download-intro{max-width:860px}.download-help{padding:25px 29px;border-radius:13px;border:1px solid rgba(151,227,184,.19);margin:26px 0;background:#102b2b}.download-help h2{font-size:18px;color:#d6f5e2}.download-help p,.download-help li{font-size:12px;line-height:2;color:#b2d4c2}.download-help a{color:#b7f6d0;text-decoration:underline}
+@media(max-width:800px){.download-list{grid-template-columns:1fr}.download-feature{padding:23px}.download-item{padding:23px}}
+@media(max-width:480px){.download-feature{padding:19px}.download-action-row{flex-direction:column;align-items:stretch}.download-primary,.download-secondary{width:100%}.download-item h2{font-size:18px}}

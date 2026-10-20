@@ -1,0 +1,13 @@
+Ali Mohammad: Independent Skills and Plugin Bundle Downloads
+
+Downloads are free, without subscriptions or purchase in the packages.
+
+The 5 suite ZIPs contain one or more skills and plugin metadata, not a verified official ChatGPT directory listing.
+The 15 standalone skill ZIPs each contain exactly one SKILL.md inside one top-level folder; use an eligible ChatGPT skill upload feature if available.
+
+No hosted service, private signing key, real financial integration, production credentials or backend API is included. External build tooling and cloud providers may charge independently.
+
+Verify each SHA-256 against SHA256SUMS.txt and review contents before use.
+Publisher: Ali Mohammad. Contact: https://hamoshi90.github.io/support/
+License: Apache-2.0 for owned first-party files; third-party rights are retained.
+Not published or reviewed in the official OpenAI Plugin Directory.
