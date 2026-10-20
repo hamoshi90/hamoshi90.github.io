@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 90" role="img" aria-labelledby="title"><title id="title">Ali Mohammad Developer Tools</title><rect width="87" height="87" rx="23" fill="#142b30"/><text x="9" y="61" fill="#effff6" font-family="Segoe UI,Arial,sans-serif" font-size="48" font-weight="800" letter-spacing="-5">AM</text><circle cx="77" cy="65" r="6" fill="#88ecb5"/><text x="111" y="44" fill="#193a31" font-family="Arial,sans-serif" font-size="27" font-weight="700">ALI MOHAMMAD</text><text x="112" y="67" fill="#577d68" font-family="Arial,sans-serif" font-size="15">DEVELOPER TOOLS</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 96" role="img" aria-labelledby="name">
+  <title id="name">Ali Mohammad Developer Tools</title>
+  <defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#65d9ac"/><stop offset="1" stop-color="#c2fbd9"/></linearGradient></defs>
+  <rect x="2" y="2" width="90" height="90" rx="23" fill="#19323a" stroke="#58bd94"/>
+  <path d="M20 67V30L35 53L47 30L61 53L76 30V67" stroke="url(#g)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="116" y="49" font-family="Arial,sans-serif" font-weight="800" font-size="32" fill="#ecf5f4" letter-spacing="-1">Ali Mohammad</text>
+  <text x="118" y="74" font-family="Arial,sans-serif" font-weight="600" font-size="15" letter-spacing="3" fill="#90e8b8">DEVELOPER TOOLS</text>
+</svg>
