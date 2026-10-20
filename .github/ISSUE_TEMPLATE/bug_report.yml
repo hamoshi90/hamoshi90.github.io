@@ -1,0 +1,29 @@
+name: Bug report / بلاغ خلل
+description: Report an issue with the public website or a released tool.
+title: "[Bug] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Public report: do not include passwords, tokens, financial records, or sensitive data."
+  - type: input
+    id: component
+    attributes:
+      label: Affected page or tool / الصفحة أو الأداة
+      placeholder: Website or published tool name and version
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps / خطوات التكرار
+      description: Explain what you expected and what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / النظام
+      description: Browser, OS, and public version information only.
+    validations:
+      required: false

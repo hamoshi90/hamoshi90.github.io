@@ -1,0 +1,21 @@
+name: Suggestion / اقتراح
+description: Suggest a feature for the public site or a development tool.
+title: "[Idea] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "This tracker is public. Do not include any confidential project details."
+  - type: input
+    id: area
+    attributes:
+      label: Site or tool / الموقع أو الأداة
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Your suggestion / الاقتراح
+      description: Describe the intended use and benefit.
+    validations:
+      required: true
