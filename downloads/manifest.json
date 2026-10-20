@@ -1,0 +1,242 @@
+{
+  "publisher": "Ali Mohammad / علي محمد",
+  "version": "1.0.2",
+  "distribution_date": "2026-10-21",
+  "distribution_channel": "independent GitHub Pages website",
+  "license": "Apache-2.0 (publisher-controlled first-party files; third-party license notices retained)",
+  "not_chatgpt_directory_published": true,
+  "bundles": [
+    {
+      "slug": "project-dev-guardian",
+      "title": "Project Dev Guardian",
+      "url": "/downloads/v1.0.2/project-dev-guardian-1.0.2.zip",
+      "filename": "project-dev-guardian-1.0.2.zip",
+      "sha256": "982095e4c382f65ecff8cce1dcfe606df2304aaf24935388d3015960fb912bca",
+      "size_bytes": 63683,
+      "skills": [
+        {
+          "name": "project-dev-guardian",
+          "download_url": "/downloads/skills/v1.0.2/project-dev-guardian-1.0.2.zip"
+        }
+      ]
+    },
+    {
+      "slug": "android-apk-builder",
+      "title": "Android APK Builder",
+      "url": "/downloads/v1.0.2/android-apk-builder-1.0.2.zip",
+      "filename": "android-apk-builder-1.0.2.zip",
+      "sha256": "861fa090fb2b18a2bc995cef094869cfc5b3fa9479e2f022884818e8e2f6ff2d",
+      "size_bytes": 49329,
+      "skills": [
+        {
+          "name": "android-apk-builder",
+          "download_url": "/downloads/skills/v1.0.2/android-apk-builder-1.0.2.zip"
+        }
+      ]
+    },
+    {
+      "slug": "interactive-app-preview",
+      "title": "Interactive App Preview",
+      "url": "/downloads/v1.0.2/interactive-app-preview-1.0.2.zip",
+      "filename": "interactive-app-preview-1.0.2.zip",
+      "sha256": "398132b28de5570015a434b71df49fa6d9dd5f3ee1d8204bb15dc39254b494ea",
+      "size_bytes": 50999,
+      "skills": [
+        {
+          "name": "interactive-app-preview",
+          "download_url": "/downloads/skills/v1.0.2/interactive-app-preview-1.0.2.zip"
+        }
+      ]
+    },
+    {
+      "slug": "engineering-quality-suite",
+      "title": "Engineering Quality Suite",
+      "url": "/downloads/v1.0.2/engineering-quality-suite-1.0.2.zip",
+      "filename": "engineering-quality-suite-1.0.2.zip",
+      "sha256": "b34d23025a5e9fc080547cc963be4aced83178f6a1684b724b088ea331b61b83",
+      "size_bytes": 63051,
+      "skills": [
+        {
+          "name": "android-ui-regression-qa",
+          "download_url": "/downloads/skills/v1.0.2/android-ui-regression-qa-1.0.2.zip"
+        },
+        {
+          "name": "api-integration-tester",
+          "download_url": "/downloads/skills/v1.0.2/api-integration-tester-1.0.2.zip"
+        },
+        {
+          "name": "database-integrity-migration",
+          "download_url": "/downloads/skills/v1.0.2/database-integrity-migration-1.0.2.zip"
+        },
+        {
+          "name": "financial-transaction-safety",
+          "download_url": "/downloads/skills/v1.0.2/financial-transaction-safety-1.0.2.zip"
+        },
+        {
+          "name": "production-release-gatekeeper",
+          "download_url": "/downloads/skills/v1.0.2/production-release-gatekeeper-1.0.2.zip"
+        }
+      ]
+    },
+    {
+      "slug": "production-excellence-suite",
+      "title": "Production Excellence Suite",
+      "url": "/downloads/v1.0.2/production-excellence-suite-1.0.2.zip",
+      "filename": "production-excellence-suite-1.0.2.zip",
+      "sha256": "176b4b52099d205ce1476512f639abf1d2ff23f68444bf2b80f8b24018bebd8e",
+      "size_bytes": 77092,
+      "skills": [
+        {
+          "name": "android-e2e-automation",
+          "download_url": "/downloads/skills/v1.0.2/android-e2e-automation-1.0.2.zip"
+        },
+        {
+          "name": "automated-security-cicd",
+          "download_url": "/downloads/skills/v1.0.2/automated-security-cicd-1.0.2.zip"
+        },
+        {
+          "name": "disaster-recovery-backup-verification",
+          "download_url": "/downloads/skills/v1.0.2/disaster-recovery-backup-verification-1.0.2.zip"
+        },
+        {
+          "name": "multi-tenant-security-testing",
+          "download_url": "/downloads/skills/v1.0.2/multi-tenant-security-testing-1.0.2.zip"
+        },
+        {
+          "name": "performance-load-chaos-testing",
+          "download_url": "/downloads/skills/v1.0.2/performance-load-chaos-testing-1.0.2.zip"
+        },
+        {
+          "name": "production-monitoring-incident-response",
+          "download_url": "/downloads/skills/v1.0.2/production-monitoring-incident-response-1.0.2.zip"
+        },
+        {
+          "name": "reproducible-development-environments",
+          "download_url": "/downloads/skills/v1.0.2/reproducible-development-environments-1.0.2.zip"
+        }
+      ]
+    }
+  ],
+  "standalone_skills": [
+    {
+      "name": "project-dev-guardian",
+      "source_bundle": "project-dev-guardian",
+      "url": "/downloads/skills/v1.0.2/project-dev-guardian-1.0.2.zip",
+      "filename": "project-dev-guardian-1.0.2.zip",
+      "sha256": "78d9784b30354966864ee234dfedc64fae914631c017f2ad0bd9a3253e94100b",
+      "size_bytes": 13490
+    },
+    {
+      "name": "android-apk-builder",
+      "source_bundle": "android-apk-builder",
+      "url": "/downloads/skills/v1.0.2/android-apk-builder-1.0.2.zip",
+      "filename": "android-apk-builder-1.0.2.zip",
+      "sha256": "0c4a6282130a4612dae9c62e7db56e81e8c404b2df0c5d369574934a8f0b9c08",
+      "size_bytes": 17362
+    },
+    {
+      "name": "interactive-app-preview",
+      "source_bundle": "interactive-app-preview",
+      "url": "/downloads/skills/v1.0.2/interactive-app-preview-1.0.2.zip",
+      "filename": "interactive-app-preview-1.0.2.zip",
+      "sha256": "3a813650dd9d6cee72c5ad69bc6f15588a564bdfc355aaf9e050154e1ae5b527",
+      "size_bytes": 18078
+    },
+    {
+      "name": "android-ui-regression-qa",
+      "source_bundle": "engineering-quality-suite",
+      "url": "/downloads/skills/v1.0.2/android-ui-regression-qa-1.0.2.zip",
+      "filename": "android-ui-regression-qa-1.0.2.zip",
+      "sha256": "e5febfe535c4fed1102d67793e4ae6ed179c5aae7ee7ce55869150da4caa62a9",
+      "size_bytes": 9378
+    },
+    {
+      "name": "api-integration-tester",
+      "source_bundle": "engineering-quality-suite",
+      "url": "/downloads/skills/v1.0.2/api-integration-tester-1.0.2.zip",
+      "filename": "api-integration-tester-1.0.2.zip",
+      "sha256": "da216302cc52dd30536fc08f025ab90e7c5e0d37651eb64995c9c3bd1416f6f5",
+      "size_bytes": 9178
+    },
+    {
+      "name": "database-integrity-migration",
+      "source_bundle": "engineering-quality-suite",
+      "url": "/downloads/skills/v1.0.2/database-integrity-migration-1.0.2.zip",
+      "filename": "database-integrity-migration-1.0.2.zip",
+      "sha256": "91882367b6d4ecd8022c16d11310138dd3749d62455585dc845864a2a9a98b8e",
+      "size_bytes": 9205
+    },
+    {
+      "name": "financial-transaction-safety",
+      "source_bundle": "engineering-quality-suite",
+      "url": "/downloads/skills/v1.0.2/financial-transaction-safety-1.0.2.zip",
+      "filename": "financial-transaction-safety-1.0.2.zip",
+      "sha256": "504505e6ce635a7b5cb9c78a0ecc258e8fd43510ed09e3bfc82e0b9e66ab3b6b",
+      "size_bytes": 10017
+    },
+    {
+      "name": "production-release-gatekeeper",
+      "source_bundle": "engineering-quality-suite",
+      "url": "/downloads/skills/v1.0.2/production-release-gatekeeper-1.0.2.zip",
+      "filename": "production-release-gatekeeper-1.0.2.zip",
+      "sha256": "1c5618285b5325a59dc50bb87ae8ef0be88881ab7bca35be5cf324305d349d8f",
+      "size_bytes": 9239
+    },
+    {
+      "name": "android-e2e-automation",
+      "source_bundle": "production-excellence-suite",
+      "url": "/downloads/skills/v1.0.2/android-e2e-automation-1.0.2.zip",
+      "filename": "android-e2e-automation-1.0.2.zip",
+      "sha256": "f40e8ce3ccb2ae6b0b184825ab3784ac1e0ee7399b383fb0875bf7401e320516",
+      "size_bytes": 9493
+    },
+    {
+      "name": "automated-security-cicd",
+      "source_bundle": "production-excellence-suite",
+      "url": "/downloads/skills/v1.0.2/automated-security-cicd-1.0.2.zip",
+      "filename": "automated-security-cicd-1.0.2.zip",
+      "sha256": "d75f1bb2eb28e583ff7e96c1acccef6d2929f7abf0c0b08af224c8a9c1ff0fb5",
+      "size_bytes": 9536
+    },
+    {
+      "name": "disaster-recovery-backup-verification",
+      "source_bundle": "production-excellence-suite",
+      "url": "/downloads/skills/v1.0.2/disaster-recovery-backup-verification-1.0.2.zip",
+      "filename": "disaster-recovery-backup-verification-1.0.2.zip",
+      "sha256": "ec64a0932e8dbf83221855de87fa2a2784272c544fe984524d4032c8733cdbfb",
+      "size_bytes": 9989
+    },
+    {
+      "name": "multi-tenant-security-testing",
+      "source_bundle": "production-excellence-suite",
+      "url": "/downloads/skills/v1.0.2/multi-tenant-security-testing-1.0.2.zip",
+      "filename": "multi-tenant-security-testing-1.0.2.zip",
+      "sha256": "1a7eb4c0fe7893020e54d7e43123aa3a92407558fff03923475425daf5f44b9d",
+      "size_bytes": 9512
+    },
+    {
+      "name": "performance-load-chaos-testing",
+      "source_bundle": "production-excellence-suite",
+      "url": "/downloads/skills/v1.0.2/performance-load-chaos-testing-1.0.2.zip",
+      "filename": "performance-load-chaos-testing-1.0.2.zip",
+      "sha256": "cff4aed04819e1a2a50a49bf66d8b82d91332222a3275f575a9d71047b537f95",
+      "size_bytes": 9680
+    },
+    {
+      "name": "production-monitoring-incident-response",
+      "source_bundle": "production-excellence-suite",
+      "url": "/downloads/skills/v1.0.2/production-monitoring-incident-response-1.0.2.zip",
+      "filename": "production-monitoring-incident-response-1.0.2.zip",
+      "sha256": "fc650937620c740589c4c59f2c6ae64c26f330291f9b15f8aed8fd5bdf631fe6",
+      "size_bytes": 9681
+    },
+    {
+      "name": "reproducible-development-environments",
+      "source_bundle": "production-excellence-suite",
+      "url": "/downloads/skills/v1.0.2/reproducible-development-environments-1.0.2.zip",
+      "filename": "reproducible-development-environments-1.0.2.zip",
+      "sha256": "66db88f997439db5905ddba43103d404b8dd1cf9e2d60f4eb499f6beac2702ea",
+      "size_bytes": 9536
+    }
+  ]
+}
