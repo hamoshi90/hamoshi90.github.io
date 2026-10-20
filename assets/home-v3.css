@@ -209,3 +209,11 @@ html[dir=rtl] .home-v3 .toolkit-body h3{text-align:right}
  .home-v3 a,.home-v3 .toolkit-card{transition:none}
  .home-v3 a:hover,.home-v3 .toolkit-card:hover{transform:none}
 }
+
+/* Approved developer identity V4: quiet mint framing, no extra visual clutter. */
+.home-v3 .home-footer-monogram{width:35px;height:35px;display:inline-flex;align-items:center;justify-content:center;flex:0 0 35px;letter-spacing:normal}
+.home-v3 .home-footer-monogram img{width:35px;height:35px;object-fit:contain;border-radius:10px;display:block}
+.home-v3 .monogram img{transition:transform .26s ease, filter .26s ease}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+ .home-v3 .identity:hover .monogram img{transform:translateY(-1px) scale(1.035);filter:drop-shadow(0 0 5px rgba(77,205,174,.18))}
+}
